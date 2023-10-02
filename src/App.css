@@ -1,0 +1,16 @@
+.content {
+    position: relative;
+    text-align: center;
+    color: white; 
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    margin-top: 5rem;
+  }
+
+  /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

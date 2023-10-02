@@ -1,0 +1,101 @@
+#about {
+    margin-bottom: 25vh;
+}
+
+button.correct {
+    background-color: pink;
+  }
+  
+  button.incorrect {
+    background-color: black;
+    color: white;
+  }
+
+  .start {
+    background-image: linear-gradient(to right, rgba(13, 12, 10),rgba(251, 96, 117));
+    padding: 2rem;
+    border-radius: 25px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+    #par {
+    margin-bottom: 17vh;
+    }
+
+  .container {
+    display: flex;
+  }
+
+  button {
+    font-size: 1rem;
+    background-color: var(--lighterPink);
+    color: var(--white);
+    font-family: quicksand;
+    border: none;
+    border-radius: 25px 0 0 0;
+    padding: 0.7rem 1.4rem;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    border-radius: 25px;
+  }
+
+  .element {
+    width: 50%;
+    padding: 2rem;
+    height: 50vh;
+  }
+
+  #text {
+  background-color: var(--black);
+  border-radius: 25px 0 0 25px;
+}
+
+#picture {
+    background-color: var(--pink);
+    border-radius:0 25px 25px 0 ;
+}
+
+.imag {
+    height: 100%;
+}
+
+.startImag {
+    height: 50%;
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 0.875rem;
+    }
+    #picture {
+        display: none;
+    }
+    #text {
+        width: 100%;
+    }
+  }
+  
+  /* Media query for mobile phones */
+  @media (max-width: 768px) {
+    button{
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+        border-radius: 12px 0 0 0;
+    }
+    #picture {
+        display: none;
+    }
+    #text {
+        width: 100%;
+    }
+  }  

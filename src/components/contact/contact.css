@@ -1,0 +1,53 @@
+#contact {
+    margin-bottom: 25vh;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactItem {
+    width: 40%;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.mail {
+    background-color: var(--black);
+}
+
+.messenger {
+    background-color: var(--pink);
+}
+
+#pinkB {
+    border-radius: 25px 0 0 0;
+}
+
+#pinkB:hover {
+    border-radius: 25px;
+}
+
+#blackB {
+    border-radius: 0 25px 0 0;
+}
+
+#blackB:hover {
+    border-radius: 25px;
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+  }
+  
+  /* Media query for mobile phones */
+  @media (max-width: 768px) {
+    .contactContainer {
+        flex-direction: column;
+    }
+    .contactItem {
+        width: auto;
+    }
+  }  

@@ -1,0 +1,31 @@
+#footer {
+    background-color: var(--lightPink);
+    background-image: radial-gradient( ellipse farthest-corner at 2rem 2rem , var(--black), var(--pink) 50%, var(--lighterPink) 50%);
+    background-size: 2rem 2rem;
+    height: 40vh;
+    border-radius: 75px 75px 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_pack {
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+  
+#rights {
+    font-size: 0.75rem;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+
+.round {
+    background-color: var(--pink);
+    margin-top: 1.4vh;
+    margin-bottom: 15vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 25px;
+}

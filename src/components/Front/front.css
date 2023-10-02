@@ -1,0 +1,73 @@
+#home {
+    margin-bottom: 30vh;
+}
+
+.imageContainer {
+    top: 0;
+    left: 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+    z-index: -1;
+    position: absolute; /* Making sure the other content of the website does not see the picture */
+}
+
+/* The bakcground image styling */
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#image2 {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolioContent {
+    text-align: left;
+    width: 45%;
+    z-index: -2;
+}
+
+.code-snippet-container {
+    height: 20vh;
+    white-space: pre-wrap;
+}
+
+.code-snippet-text{
+    font-family: work sans;
+    font-size: 3vh;
+}
+
+.spacer {
+    height: 48vh;
+}
+
+.flexContainerButton{
+    display: flex;
+    justify-content: center;
+}
+
+  
+  /* Media query for mobile phones */
+  @media (max-width: 768px) {
+    #image {
+        display: none;
+    }
+    #image2 {
+        display: block;
+    }
+    .code-snippet-text {
+        font-size: 2vh;
+    }
+  }
+  @media (max-width: 489px) {
+    .code-snippet-text {
+        font-size: 1vh;
+    }
+  }

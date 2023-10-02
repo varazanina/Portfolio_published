@@ -1,0 +1,32 @@
+#experience {
+    margin-bottom: 25vh;
+}
+
+.eContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 45%;
+    padding: 1rem;
+}
+
+#leftItem {
+    background-color: rgba(13, 12, 10, 0.7);
+    border-radius: 25px 0 0 0;
+}
+
+#rightItem {
+    background-color: rgba(251, 96, 117, 0.7);
+    border-radius: 0 25px 0 0;
+}
+
+.item:hover {
+    border-radius: 25px;
+}
+
+.oneLine {
+    display: flex;
+    justify-content: space-between;
+}

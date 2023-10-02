@@ -1,0 +1,17 @@
+.logo_div{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    margin-right: 10%; 
+}
+
+.logo{
+    width: 3rem;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .logo_div{
+        margin-right: 2%;
+    }
+}

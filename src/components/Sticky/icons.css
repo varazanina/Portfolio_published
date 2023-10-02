@@ -1,0 +1,30 @@
+.iconsContainer{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.icons{
+    width: 2rem;
+    margin-top: 0.5rem;
+}
+
+.scrollContainer{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-right: 10%;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .iconsContainer{
+        display: none;
+    }
+    .scrollContainer {
+        display: none;
+    }
+}

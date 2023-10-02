@@ -1,0 +1,111 @@
+#projects {
+    margin-bottom: 25vh;
+}
+
+.work-item-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    background-image: linear-gradient(to right, rgba(251, 96, 117), rgba(13, 12, 10, 0.7));
+    border: 0.2rem solid var(--black);
+    border-radius: 25px;
+    padding: 5vh;
+    margin-bottom: 20vh;
+} 
+
+.work-item-right {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    background-image: linear-gradient(to right, rgba(251, 96, 117, 0.7), rgba(13, 12, 10));
+    border: 0.2rem solid var(--pink);
+    border-radius: 25px;
+    padding: 5vh;
+    margin-bottom: 20vh;
+}
+
+.work-item-left button {
+    background-color: var(--pink);
+    color: var(--white);
+    font-family: quicksand;
+    border: none;
+    border-radius: 0 25px 0 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.work-item-left button:hover {
+    border-radius: 25px;
+}
+
+.work-item-right button {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: quicksand;
+    border: none;
+    border-radius: 25px 0 0 0;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.work-item-right button:hover {
+    border-radius: 25px;
+}
+
+.imageP {
+    width: 100%;
+}
+
+.oneItem {
+    width: 45%;
+}
+
+.textSide {
+    text-align: left;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.iconPack {
+    display: flex;
+    align-items: center;
+}
+
+.iconPack img {
+    height: 100%;
+    padding-right: 0.5rem;
+}
+
+.iconsLinks {
+    display: flex;
+    align-items: center;
+}
+
+.iconsLinks img {
+    height: 2.5rem;
+}
+
+/* Media query for tablets (e.g., iPad) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .oneItem {
+        width: 100%;
+    }
+  }
+  
+  /* Media query for mobile phones */
+  @media (max-width: 768px) {
+    .work-item-right, .work-item-left {
+        flex-direction: column;
+        height: 80vh;
+    }
+    .oneItem {
+        width: 100%;
+    }
+  }  
